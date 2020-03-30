@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveToUploadIMActBtn"
+        android:onClick="moveToUploadImage"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/move_to_upload_image"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveToDownloadIMActBtn"
+        android:onClick="moveToDownloadImage"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/move_to_download_image"
+        android:layout_below="@id/moveToUploadIMActBtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moveToUploadViBtn"
+        android:onClick="moveToUploadVideo"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Move to Upload Video"
+        android:layout_below="@id/moveToDownloadIMActBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveToDownloadVideo"
+        android:id="@+id/moveToDownloadViBtn"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Move to Download Video"
+        android:layout_below="@id/moveToUploadViBtn"/>
+
+
+</RelativeLayout>

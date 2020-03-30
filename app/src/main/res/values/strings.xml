@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FireBase_FireStorage</string>
+    <string name="move_to_upload_image">Move to Upload Image</string>
+    <string name="move_to_download_image">Move to Download Image</string>
+</resources>
